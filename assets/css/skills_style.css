@@ -1,0 +1,36 @@
+body {
+      background-color: #121212;
+      color: #e0e0e0;
+      scroll-behavior: smooth;
+    }
+
+    .accordion-button {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #272727;
+      color: #fff;
+    }
+
+    .accordion-body {
+      color: #c0c0c0;
+    }
+
+    .hero {
+      background-color: #1b1b1b;
+    }
+
+    .navbar, footer {
+      background-color: #000;
+    }
+
+    .navbar .nav-link.active {
+      color: #0d6efd !important;
+      font-weight: bold;
+    }
+
+    .accordion-item {
+      border-color: #444 !important;
+    }

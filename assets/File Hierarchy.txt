@@ -1,0 +1,14 @@
+portfolio/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── responsive.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── profile.jpg
+│   ├── projects/
+│   └── icons/
+├── assets/
+│   └── resume.pdf
+└── README.md
