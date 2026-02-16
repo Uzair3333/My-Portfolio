@@ -18,7 +18,7 @@ This repository contains the source code for my **portfolio website**, which sho
 
 ## Live Demo
 
-You can view the live portfolio [here](https://yourgithubusername.github.io/portfolio/)  
+You can view the live portfolio [here](https://github.com/Uzair3333/My-Portfolio.git)  
 
 ## Future Updates
 
