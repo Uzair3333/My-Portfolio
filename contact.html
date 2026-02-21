@@ -67,6 +67,7 @@
             <textarea class="form-control" id="message" rows="4" placeholder="Write your message" name="message"></textarea>
           </div>
           <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          <input type="hidden" name="_redirect" value="https://uzair3333.github.io/My-Portfolio/contact.html?success=true">
         </form>
 
         <!-- Social / Freelance Links -->
@@ -111,5 +112,26 @@
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+<script>
+  // If redirected after successful submission
+  if (window.location.search.includes("success=true")) {
+
+    // Clear the form fields
+    const form = document.querySelector("form");
+    if (form) {
+      form.reset();
+    }
+
+    // Show success alert
+    const successMessage = document.createElement("div");
+    successMessage.className = "alert alert-success text-center mt-3";
+    successMessage.innerText = "Message sent successfully! I will contact you soon.";
+
+    form.parentNode.insertBefore(successMessage, form);
+
+    // Remove success from URL (clean URL)
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+</script>
 </body>
 </html>
